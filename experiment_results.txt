@@ -1,4 +1,4 @@
-Vector Add CPU 实验结果
+Vector Add 实验结果
 RESULT mode=CPU n=10000 time_ms=0.012537 verification=PASS
 RESULT mode=CPU n=100000 time_ms=0.070665 verification=PASS
 RESULT mode=CPU n=1000000 time_ms=0.705965 verification=PASS
