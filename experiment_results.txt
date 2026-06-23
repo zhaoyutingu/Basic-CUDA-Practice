@@ -1,0 +1,26 @@
+Vector Add CPU 实验结果
+RESULT mode=CPU n=10000 time_ms=0.012537 verification=PASS
+RESULT mode=CPU n=100000 time_ms=0.070665 verification=PASS
+RESULT mode=CPU n=1000000 time_ms=0.705965 verification=PASS
+RESULT mode=CPU n=10000000 time_ms=12.110455 verification=PASS
+RESULT mode=CPU n=50000000 time_ms=60.697033 verification=PASS
+RESULT mode=GPU n=1000000 block_size=64 grid_size=15625 repeats=10 kernel_ms=0.043213 total_ms=277.251533 verification=PASS
+RESULT mode=GPU n=1000000 block_size=128 grid_size=7813 repeats=10 kernel_ms=0.043008 total_ms=233.869465 verification=PASS
+RESULT mode=GPU n=1000000 block_size=256 grid_size=3907 repeats=10 kernel_ms=0.042906 total_ms=220.623816 verification=PASS
+RESULT mode=GPU n=1000000 block_size=512 grid_size=1954 repeats=10 kernel_ms=0.043008 total_ms=222.483707 verification=PASS
+RESULT mode=GPU n=10000000 block_size=64 grid_size=156250 repeats=10 kernel_ms=0.403456 total_ms=264.895772 verification=PASS
+RESULT mode=GPU n=10000000 block_size=128 grid_size=78125 repeats=10 kernel_ms=0.403866 total_ms=270.841052 verification=PASS
+RESULT mode=GPU n=10000000 block_size=256 grid_size=39063 repeats=10 kernel_ms=0.403661 total_ms=274.008913 verification=PASS
+RESULT mode=GPU n=10000000 block_size=512 grid_size=19532 repeats=10 kernel_ms=0.403456 total_ms=264.899545 verification=PASS
+RESULT mode=GPU n=10000 block_size=512 grid_size=20 repeats=10 kernel_ms=0.003277 total_ms=251.579861 verification=PASS
+RESULT mode=GPU n=10000 block_size=64 grid_size=157 repeats=10 kernel_ms=0.002867 total_ms=253.593019 verification=PASS
+RESULT mode=GPU n=10000 block_size=128 grid_size=79 repeats=10 kernel_ms=0.002662 total_ms=247.887957 verification=PASS
+RESULT mode=GPU n=10000 block_size=256 grid_size=40 repeats=10 kernel_ms=0.003174 total_ms=256.409369 verification=PASS
+RESULT mode=GPU n=10000 block_size=512 grid_size=20 repeats=10 kernel_ms=0.002867 total_ms=239.992350 verification=PASS
+RESULT mode=GPU n=100000 block_size=64 grid_size=1563 repeats=10 kernel_ms=0.006144 total_ms=231.091280 verification=PASS
+RESULT mode=GPU n=100000 block_size=128 grid_size=782 repeats=10 kernel_ms=0.003891 total_ms=263.120282 verification=PASS
+RESULT mode=GPU n=100000 block_size=256 grid_size=391 repeats=10 kernel_ms=0.003686 total_ms=283.024790 verification=PASS
+RESULT mode=GPU n=100000 block_size=512 grid_size=196 repeats=10 kernel_ms=0.003789 total_ms=288.924255 verification=PASS
+RESULT mode=GPU n=100000 block_size=512 grid_size=196 repeats=1 kernel_ms=0.008192 total_ms=248.034034 verification=PASS
+RESULT mode=GPU n=100000 block_size=512 grid_size=196 repeats=100 kernel_ms=0.003092 total_ms=249.219817 verification=PASS
+RESULT mode=GPU n=100000 block_size=512 grid_size=196 repeats=1000 kernel_ms=0.003024 total_ms=239.455440 verification=PASS
